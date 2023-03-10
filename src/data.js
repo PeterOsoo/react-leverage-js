@@ -1,6 +1,6 @@
 export const people = [
 	{ id: 1, name: "jaka", nickName: "Stud Muffin" },
-	{ id: 2, name: "peter" },
+	{ id: 2, name: "peter", notes: "Software Dev" },
 	{
 		id: 3,
 		name: "ondiek",
@@ -12,5 +12,6 @@ export const people = [
 			},
 		],
 	},
-	{ id: 4, name: "wuodluo" },
+	{ id: 4, name: "wuodluo", notes: "UI/UX Designer" },
+	{ id: 5, name: "Jamigingo ", notes: "CEO" },
 ]
