@@ -1,7 +1,10 @@
+import List from "./components/List"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <List />
+    </div>
   )
 }
 
