@@ -13,15 +13,15 @@ const Person = ({
 
 	const img = images?.[0]?.small?.url || avatar
 	return (
-		<section class="text-gray-600 body-font px-20 pt-10">
+		<div className="text-gray-600 body-font px-20 pt-10">
 			<img src={img} alt={name} style={{ width: "50px" }} />
 
-			<div class="w-full">
-				<h2 class="title-font font-medium text-lg text-gray-900">{name}</h2>
-				<h3 class="text-gray-500 mb-3"> Nickname : {nickName} </h3>
-				<p class="mb-4">Notes: {notes}</p>
+			<div className="w-full">
+				<h2 className="title-font font-medium text-lg text-gray-900">{name}</h2>
+				<h3 className="text-gray-500 mb-3"> Nickname : {nickName} </h3>
+				<p className="mb-4">Notes: {notes}</p>
 			</div>
-		</section>
+		</div>
 	)
 }
 export default Person
